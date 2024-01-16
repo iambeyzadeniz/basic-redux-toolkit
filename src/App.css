@@ -1,38 +1,70 @@
 .App {
-  text-align: center;
+    margin-bottom: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navDiv {
+    position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.itemsIcon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.itemsDiv {
+    background-color: white;
+    color: black;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+    text-align: center;
+
+}
+
+.cardClearButton {
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+}
+
+.cardItem {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+.cardInfo {
+    text-align: right;
+}
+
+.cardQuantityButton {
+    border: none;
+    background-color: white;
+
+}
+
+.cardItemP {
+    margin-right: 8px;
+}
+
+.cardDeleteButton {
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    margin-top: 50px;
 }
